@@ -1,0 +1,12 @@
+# Ignore everything in this directory
+.vscode/
+.idea/
+__pycache__/
+.ipynb_checkpoints
+customer_data
+test_model
+runs
+models/
+data/
+# Except this file !.gitkeep
+!.gitkeep
