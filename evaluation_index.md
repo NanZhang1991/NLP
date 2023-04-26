@@ -44,10 +44,8 @@ Language Model 语言模型的评价指标<br/>
 困惑度越小句子越通顺<br/>
 **句子概率**
 **n-gram 模型中** 假设句子有m个单词<br/>
-```md
 $ P(S)=P(w_1 w_2 ...w_m)=p(w_1)p(w_2|w_1)...P(W_m|w1,w2,...,w_m-1) $<br/>
 $ PPL(W) = P(w_1 w2...w_n)^{-\frac{1}{n}}=\sqrt[n]{\frac{1}{P(w_1 w2...w_n)}} $<br/>
-```
 **神经网络**
 cross entropy
 $ l = -\frac{1}{N} \sum_n \sum_k t_{nk} logy_{nk} $ <br/>
