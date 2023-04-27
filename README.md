@@ -33,3 +33,9 @@ BLEU<br/>
 
 ## 3.5. 模型评估
 
+# huggingface 模型下载
+```
+git lfs install
+git clone https://huggingface.co/model_name
+```
+
