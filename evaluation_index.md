@@ -90,10 +90,9 @@ FP：查错失败，原句中不存在字符错误（标记错误，实际正确
 计算准确率：将正确标记为正确或错误的单词数除以被检测的单词总数，即可得到文本纠错的准确率。
 
 Precision = TP / (TP+FP)  
-$ Precision = TP / (TP+FP) $ <br/>
-$ Recall = TP / (TP+FN) $ <br/>
-$ Accuracy = (TP+TN) / (TP+FP+TN+FN) $ <br/>
-$ f1_{score} = 2 * precision * recall / (precision + recall) $ <br/>
+Recall = TP / (TP+FN)  
+Accuracy = (TP+TN) / (TP+FP+TN+FN)  
+f1_{score} = 2 * precision * recall / (precision + recall)  
 
 # 3. 三元组模型
 TP --> correct_num:预测正确三元组的数量 <br/>
