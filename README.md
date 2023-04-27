@@ -38,7 +38,3 @@ BLEU<br/>
 git lfs install
 git clone https://huggingface.co/model_name
 ```
-$ Precision = TP / (TP+FP) $
-$ Recall = TP / (TP+FN) $
-$ Accuracy = (TP+TN) / (TP+FP+TN+FN) $
-$ f1_{score} = 2 * precision * recall / (precision + recall) $
