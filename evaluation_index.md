@@ -92,7 +92,7 @@ FP：查错失败，原句中不存在字符错误（标记错误，实际正确
 Precision = TP / (TP+FP)  
 Recall = TP / (TP+FN)  
 Accuracy = (TP+TN) / (TP+FP+TN+FN)  
-f1_{score} = 2 * precision * recall / (precision + recall)  
+$ f1_{score} = 2 * precision * recall / (precision + recall) $  
 
 # 3. 三元组模型
 TP --> correct_num:预测正确三元组的数量 <br/>
