@@ -17,8 +17,8 @@ class Custom_segment:
     @staticmethod
     def cut_paragraph(text: str) -> Generator:
         '''通过句子结束符号或者换行符加空格进行分段'''
-        pattern0 = r'(\.[ "]\n|\![ "]\n|\?[ "]\n'
-        pattern1 = r'|。[”]*\n|[！!][”]*\n|[？?][”]*\n|\.{6}[”]*\n[”]*\n|\n\ )'
+        pattern0 = r'(\.[ "]\n|\![ "]\n|\?[ "]\n|:\n|：\n|。[”]*\n|'
+        pattern1 = r'[！!][”]*\n|[？?][”]*\n|\.{6}[”]*\n[”]*\n|\n\ )|\n'
         pattern = pattern0 + pattern1
         paragraphs_seg = re.split(pattern, text)
         paragraphs = paragraphs_seg[0::2]
